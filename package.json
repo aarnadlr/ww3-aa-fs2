@@ -21,17 +21,23 @@
     "gulp-sourcemaps": "^1.6.0",
     "gulp-uglify": "^1.5.1",
     "gulp-util": "^3.0.8",
-    "jshint": "^2.8.0"
+    "jshint": "^2.8.0",
+    "webpack": "4.2.0",
+    "webpack-cli": "^2.0.13"
   },
   "dependencies": {
     "ibm-design-colors": "^2.0.4",
+    "jquery": "^3.3.1",
+    "lottie-web": "^5.1.9",
     "node-sass": "^4.8.3",
     "tachyons-sass": "^4.9.2",
     "tilt.js": "^1.2.1"
   },
-  "description": "[![Build Status](https://travis-ci.org/HosseinKarami/fastshell.png?branch=master)](https://travis-ci.org/HosseinKarami/fastshell)",
+  "description": "",
   "main": "gulpfile.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack --mode development ./src/js/webpack.js --output ./app/assets/js/bundle.js",
+    "build": "webpack --mode production ./src/js/webpack.js --output ./app/assets/js/bundle.js"
   }
 }

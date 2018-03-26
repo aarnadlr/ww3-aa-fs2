@@ -1,9 +1,10 @@
-(function ($, window, document, undefined) {
+// (function ($, window, document, undefined) {
 
-  'use strict';
+//   'use strict';
 
-  $(function () {
-    // fresh-build
-  });
+//   $(function () {
+//     // fresh-build
+//   });
 
-})(jQuery, window, document);
+// })(jQuery, window, document);
+

@@ -6,12 +6,13 @@
  * @version 1.0.0
  * Copyright 2018. MIT licensed.
  */
-(function ($, window, document, undefined) {
+// (function ($, window, document, undefined) {
 
-  'use strict';
+//   'use strict';
 
-  $(function () {
-    // fresh-build
-  });
+//   $(function () {
+//     // fresh-build
+//   });
 
-})(jQuery, window, document);
+// })(jQuery, window, document);
+
