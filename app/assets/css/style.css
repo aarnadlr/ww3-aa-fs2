@@ -7952,12 +7952,6 @@ html {
   font-smoothing: antialiased;
   text-rendering: optimizeLegibility; }
 
-body {
-  background: #57d785;
-  color: #444;
-  color: #12512e;
-  font-family: 'Space Mono', monospace; }
-
 body, html {
   min-height: 100vh; }
 
