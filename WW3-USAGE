@@ -6,16 +6,19 @@ WEBPACK NOTES:
 WHEN YOU ARE BUILDING IN DEV MODE, YOU MUST DO TO TASKS IN TERMINAL:
 
     a.
-    WEBPACK: COMPILE ALL THE JS INTO A FAST WEBPACK **DEV** BUNDLE:
-    $    `npm run dev`      -->    OUTPUTS:  app/assets/js/bundle.js   (non-minified)
+    WEBPACK: COMPILE ALL THE JS INTO A (Quick) WEBPACK **DEV** BUNDLE:
+    $    `npm run dev`   -->    OUTPUTS:  app/assets/js/bundle.js   (non-minified)
 
     b.
     GULP:
-    $    `gulp`
+    $    `gulp`          -->   Spins up a BROWSERSYNC SERVER for preview
 
 
 
 2.
 WHEN YOU ARE READY TO PUSH TO WEB, YOU MUST CREATE WEBPACK **PRODUCTION** BUNDLE:
 $    `npm run build`    -->    OUTPUTS:  app/assets/js/bundle.js   (same, but minified and tree-shaking, etc)
+
+
+
 
