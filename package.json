@@ -31,7 +31,8 @@
     "lottie-web": "^5.1.9",
     "node-sass": "^4.8.3",
     "tachyons-sass": "^4.9.2",
-    "tilt.js": "^1.2.1"
+    "tilt.js": "^1.2.1",
+    "venobox": "^1.8.3"
   },
   "description": "",
   "main": "gulpfile.js",

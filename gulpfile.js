@@ -44,13 +44,13 @@ gulp.task('js',function(){
     .pipe(jshint('.jshintrc'))
     .pipe(jshint.reporter('default'))
     .pipe(header(banner, { package : package }))
-    .pipe(gulp.dest('app/assets/js'))
-    .pipe(uglify())
+    // .pipe(gulp.dest('app/assets/js'))
+    // .pipe(uglify())
     .on('error', function (err) { gutil.log(gutil.colors.red('[Error]'), err.toString()); })
     .pipe(header(banner, { package : package }))
-    .pipe(rename({ suffix: '.min' }))
+    // .pipe(rename({ suffix: '.min' }))
     // .pipe(sourcemaps.write())
-    .pipe(gulp.dest('app/assets/js'))
+    // .pipe(gulp.dest('app/assets/js'))
     .pipe(browserSync.reload({stream:true, once: true}));
 });
 

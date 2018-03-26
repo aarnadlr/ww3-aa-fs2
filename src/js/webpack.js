@@ -1,11 +1,55 @@
 // REQUIRING IN JS FILES FOR WEBPACK:
 
-var $ = require('jquery');
+global.jQuery = require('jquery');
+$ = require('jquery');
+var venobox = require('venobox');
+// var jQuery = require('jquery');
 var Tilt = require('./tilt');
-
 var bodymovin = require('lottie-web');
-// var ww3 = require('./ww3-aa');
-// var anim = require('./anim');
+
+
+
+
+
+$(document).ready(function(){
+  $('.venobox').venobox({
+
+    // spinner: 'rotating-plane',
+    spinner: '',
+    titleattr: '',
+    titleColor: '',
+    overlayColor: 'rgba(0, 0, 50, 0.8)',
+    spinColor: '#1164ff',
+    framewidth: '500px',
+    // frameheight: '500px',
+    arrowsColor: 'cyan'
+    // titleattr: 'data-title',    // default: 'title'
+    // titlePosition: 'top',
+    // titleColor: 'white'
+    // border: '10px'             // default: '0'
+    // spinColor: 'blue'
+  });
+   $('.venobox-wide').venobox({
+
+    spinner: '',
+    titleattr: '',
+    titleColor: '',
+    overlayColor: 'rgba(0, 0, 50, 0.8)',
+    spinColor: '#1164ff',
+    framewidth: '700px',
+    // frameheight: '600px',
+    arrowsColor: 'cyan'
+    // titleattr: 'data-title',    // default: 'title'
+    // titlePosition: 'top',
+    // titleColor: 'white'
+    // border: '10px'             // default: '0'
+    // spinColor: 'blue'
+  });
+});
+
+
+
+
 
 
 // JQUERY: SMOOTH SCROLL DOWN TO ANCHOR LINKS
@@ -64,3 +108,7 @@ var anim = bodymovin.loadAnimation(animData_ibm);
 
 // SET SPEED
 anim.setSpeed(.7);
+
+
+
+
