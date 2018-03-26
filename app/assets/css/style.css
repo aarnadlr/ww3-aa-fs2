@@ -7524,9 +7524,9 @@ html {
   text-rendering: optimizeLegibility; }
 
 body {
-  background: #57d785;
+  background: color("green", 20);
   color: #444;
-  color: #12512e;
+  color: color("green", 70);
   font-family: 'Space Mono', monospace; }
 
 body, html {
