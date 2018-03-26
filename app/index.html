@@ -35,7 +35,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/venobox/1.8.2/venobox.min.css" />
 
   <!-- BALLOON CSS (TOOLTIPS) -->
-  <link rel="stylesheet" href="/assets/styles/balloon.css" />
+  <!-- <link rel="stylesheet" href="/assets/styles/balloon.css" /> -->
   <!-- TACHYONS CSS (REMOTE)-->
   <link rel="stylesheet" href="https://unpkg.com/tachyons@4.9.0/css/tachyons.min.css" />
   <!-- PALX CSS (REMOTE)-->
@@ -54,7 +54,7 @@
 
 
 
-  <!-- TACHYONS NAVBAR -->
+  <!-- TOP RIGHT NAVBAR: TOOLS and CONTACT -->
   <nav class="dt w-100 border-box pa3 ph4-ns lightest-blue">
     <div class="dtc v-mid w-75 tr">
       <!-- <a class="link dim white-60 f6 f5-ns dib mr3 mr4-ns" href="#coretoolset" title="Store">Skills / Toolset</a> -->
@@ -119,7 +119,7 @@
     <!-- PARAGRAPH BIOGRAPHY -->
     <div class=" container container--parag container--marbot30">
       <p class="lightest-blue">
-        Hi there. I’m a Creative Director / Front-end Developer in NYC. I’ve worked on projects for Facebook, Google, R/GA, Droga5,
+        Hi there. I’m a Creative director / UI designer / Front-end developer in NYC. I’ve worked on projects for Facebook, Google, R/GA, Droga5,
         BBH New York and others. My work has been recognized by Cannes, AICP, the Art Directors Club, Clios, Communication
         Arts, Archive, Adweek, and the New York Times. My focus is on
         <span class="bg-aalime navy grow">&nbsp;UI design </span>,
@@ -2120,37 +2120,25 @@
     // IBM.HTML
     // IBM BODYMOVIN ANIMATION
     // IBM BODYMOVIN ANIMATION
-
     var animData_ibm = {
       container: document.getElementById('animWindow-ibm'),
       renderer: 'svg',
       loop: true,
       autoplay: true,
-      // path: 'https://dl.dropboxusercontent.com/s/qwy4m0sexapyb8b/octoport-j.json?dl=0'
-      // path: 'https://ww3.aaronadler.com/bodymovin/data.json'
-      // IBM FIRST RENDER:
-      // path: 'https://dl.dropboxusercontent.com/s/vlpdha884xnq1ta/data.json?dl=0'
-      // IBM CIRCLES:
-      // path: 'https://dl.dropboxusercontent.com/s/c58cyqrraerr0v5/data-circle-square-.json?dl=0'
-      // IBM CIRCLE-DIAMOND:
       path: 'https://s3.amazonaws.com/aws-website-animatedcodeme--n3fph/bodymovin_files/data-circle-diamond.json'
     };
-
 
     // PLACE THE ABOVE INTO A SHORTER VAR
     var anim = bodymovin.loadAnimation(animData_ibm);
 
-
     // SET SPEED
     anim.setSpeed(.7);
-
   </script>
 
-
-
-
   <!-- NATIVE JS -->
-  <script src="/assets/js/app.js"></script>
+  <!-- <script src="/assets/js/app.js"></script> -->
+  <script src="/assets/js/scripts.min.js"></script>
+  <script src="/assets/js/ww3-aa.min.js"></script>
 </body>
 
 </html>
