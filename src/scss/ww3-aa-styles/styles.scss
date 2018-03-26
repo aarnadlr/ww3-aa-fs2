@@ -295,7 +295,22 @@ $navblue: rgb(22, 73, 255);
 
 
 .bg-aalime{
-  background: var(--aa-lime);
+  // background: var(--aa-lime);
+  // background: red;
+  background: color('cerulean', 50);
+}
+
+.bg-ibm-1{
+  background: color('aqua', 20);
+}
+.bg-ibm-2{
+  background: color('teal', 20);
+}
+.bg-ibm-3{
+  background: color('green', 20);
+}
+.bg-ibm-4{
+  background: color('lime', 20);
 }
 
 
