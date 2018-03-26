@@ -26,7 +26,8 @@
   "dependencies": {
     "ibm-design-colors": "^2.0.4",
     "node-sass": "^4.8.3",
-    "tachyons-sass": "^4.9.2"
+    "tachyons-sass": "^4.9.2",
+    "tilt.js": "^1.2.1"
   },
   "description": "[![Build Status](https://travis-ci.org/HosseinKarami/fastshell.png?branch=master)](https://travis-ci.org/HosseinKarami/fastshell)",
   "main": "gulpfile.js",

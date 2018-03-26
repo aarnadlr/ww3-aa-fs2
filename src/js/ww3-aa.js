@@ -114,7 +114,7 @@ var anim = bodymovin.loadAnimation(animData);
 anim.setSpeed(.8);
 
 // SET INITIAL COLOR OF PHONERECT (BACKGROUND) HERE:
-TweenMax.set(".phoneRect", {background:"rgb(8, 0, 255)", opacity:1});
+// TweenMax.set(".phoneRect", {background:"rgb(8, 0, 255)", opacity:1});
 
 // CLICK ANYWHERE ON TOP DIV TO PLAY
 $('.phoneRect').click( function() {
@@ -189,25 +189,26 @@ $('#reverse').click( function() {
 // SECOND ROW - TYPE COLOR CONTROL
 // SECOND ROW - TYPE COLOR CONTROL
 // SECOND ROW - TYPE COLOR CONTROL
-$('#white').click( function() {
-  TweenMax.to("path", .5, {fill:"white", stroke:"white", opacity:1});
-});
 
-$('#red').click( function() {
-  TweenMax.to("path", .5, {fill:"rgb(255, 0, 59)", stroke:"rgb(255, 0, 59)", opacity:1});
-  // TweenMax.to("path", 1, {fill:"#70a8fc", opacity:1});
-});
-$('#cyan').click( function() {
-  TweenMax.to("path", .5, {fill:"cyan", stroke:"cyan", opacity:1});
-});
+// $('#white').click( function() {
+//   TweenMax.to("path", .5, {fill:"white", stroke:"white", opacity:1});
+// });
 
-$('#magenta').click( function() {
-  TweenMax.to("path", .5, {fill:"rgb(255, 0, 255)", stroke:"rgb(255, 0, 255)", opacity:1});
-});
+// $('#red').click( function() {
+//   TweenMax.to("path", .5, {fill:"rgb(255, 0, 59)", stroke:"rgb(255, 0, 59)", opacity:1});
+//   // TweenMax.to("path", 1, {fill:"#70a8fc", opacity:1});
+// });
+// $('#cyan').click( function() {
+//   TweenMax.to("path", .5, {fill:"cyan", stroke:"cyan", opacity:1});
+// });
 
-$('#black').click( function() {
-  TweenMax.to("path", .5, {fill:"black", stroke:"black", opacity:1});
-});
+// $('#magenta').click( function() {
+//   TweenMax.to("path", .5, {fill:"rgb(255, 0, 255)", stroke:"rgb(255, 0, 255)", opacity:1});
+// });
+
+// $('#black').click( function() {
+//   TweenMax.to("path", .5, {fill:"black", stroke:"black", opacity:1});
+// });
 
 
 
@@ -218,22 +219,23 @@ $('#black').click( function() {
 // THIRD ROW - BACKGROUND COLOR CONTROLS
 // THIRD ROW - BACKGROUND COLOR CONTROLS
 // THIRD ROW - BACKGROUND COLOR CONTROLS
-$('#whiteBcg').click( function() {
-  TweenMax.to(".phoneRect", .5, {background:"rgb(242, 242, 242)", opacity:1});
-});
 
-$('#redBcg').click( function() {
-  TweenMax.to(".phoneRect", .5, {background:"rgb(255, 0, 59)", opacity:1});
-});
+// $('#whiteBcg').click( function() {
+//   TweenMax.to(".phoneRect", .5, {background:"rgb(242, 242, 242)", opacity:1});
+// });
 
-$('#blueBcg').click( function() {
-  TweenMax.to(".phoneRect", .5, {background:"rgb(8, 0, 255)", opacity:1});
-});
+// $('#redBcg').click( function() {
+//   TweenMax.to(".phoneRect", .5, {background:"rgb(255, 0, 59)", opacity:1});
+// });
 
-$('#purpleBcg').click( function() {
-  TweenMax.to(".phoneRect", .5, {background:"rgb(165, 0, 255)", opacity:1});
-});
+// $('#blueBcg').click( function() {
+//   TweenMax.to(".phoneRect", .5, {background:"rgb(8, 0, 255)", opacity:1});
+// });
 
-$('#blackBcg').click( function() {
-  TweenMax.to(".phoneRect", .5, {background:"rgb(30, 30, 30)", opacity:1});
-});
+// $('#purpleBcg').click( function() {
+//   TweenMax.to(".phoneRect", .5, {background:"rgb(165, 0, 255)", opacity:1});
+// });
+
+// $('#blackBcg').click( function() {
+//   TweenMax.to(".phoneRect", .5, {background:"rgb(30, 30, 30)", opacity:1});
+// });
