@@ -2,8 +2,10 @@
 
 global.jQuery = require('jquery');
 $ = require('jquery');
+
 var venobox = require('venobox');
 // var jQuery = require('jquery');
+
 var Tilt = require('./tilt');
 var bodymovin = require('lottie-web');
 

@@ -29,7 +29,7 @@
 
 </head>
 
-<body class="">
+<body id='ibm' class="">
   <!-- - - - - - - START BODY - - - - - - -->
 
   <!-- TOP RIGHT NAVBAR: TOOLS and CONTACT -->
@@ -66,6 +66,7 @@
           <br>
           <br>
           In addition to the site UI, I developed an animated lockup for IBM Partners that would render in the browser. Click the logo to the right to replay the coded animation.
+          <br>
           <br>
           <br>
           TOOLSET:
@@ -105,8 +106,8 @@
       <div id='animWindow-ibm' class="pointer">
         <!-- TEXT DESCRIPTION -->
       </div>
-          <p class="lightest-blue lh-copy2 f7 screenGroup">
-            IBM Partners coded animation - Click the image to replay
+          <p id='ibm-caption' class="pointer caption lightest-blue lh-copy2 f7 screenGroup">
+            IBM Partners coded animation - <span class="underline">Click the image to replay</span>
           </p>
 
 
@@ -116,7 +117,7 @@
           <!-- IMAGE -->
           <img src="assets/img/ibm/IBM-Screen_1.jpg" alt="">
           <!-- TEXT DESCRIPTION -->
-          <p class="lightest-blue lh-copy2 f7">
+          <p class="caption lightest-blue lh-copy2 f7">
             IBM Partners - Welcome screen
           </p>
         </div>
@@ -127,7 +128,7 @@
         <!-- IMAGE -->
         <img src="assets/img/ibm/IBM-Screen_2.jpg" alt="">
         <!-- TEXT DESCRIPTION -->
-        <p class="lightest-blue lh-copy2 f7">
+        <p class="caption lightest-blue lh-copy2 f7">
           IBM Partners - Build / Sell screen
         </p>
       </div>
@@ -138,7 +139,7 @@
         <!-- IMAGE -->
         <img src="assets/img/ibm/IBM-Screen_5.jpg" alt="">
         <!-- TEXT DESCRIPTION -->
-        <p class="lightest-blue lh-copy2 f7">
+        <p class="caption lightest-blue lh-copy2 f7">
             IBM Partners - Three Steps to Partnering
         </p>
       </div>
@@ -149,7 +150,7 @@
         <!-- IMAGE -->
         <img src="assets/img/ibm/IBM-Screen_3.jpg" alt="">
         <!-- TEXT DESCRIPTION -->
-        <p class="lightest-blue lh-copy2 f7">
+        <p class="caption lightest-blue lh-copy2 f7">
             IBM Partners - Partner Showcase
         </p>
       </div>
@@ -160,7 +161,7 @@
         <!-- IMAGE -->
         <img src="assets/img/ibm/IBM-Screen_4.jpg" alt="">
         <!-- TEXT DESCRIPTION -->
-        <p class="lightest-blue lh-copy2 f7">
+        <p class="caption lightest-blue lh-copy2 f7">
             IBM Partners - Think 2018 screen
         </p>
       </div>
@@ -190,11 +191,10 @@
 <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/4.13.0/bodymovin.min.js"></script> -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/4.13.0/bodymovin_light.min.js"></script>
 
-<script>
-  
+
+
+<script>  
 // IBM.HTML
-// IBM.HTML
-// IBM BODYMOVIN ANIMATION
 // IBM BODYMOVIN ANIMATION
 
 var animData = {
@@ -202,35 +202,35 @@ var animData = {
   renderer: 'svg',
   loop: false,
   autoplay: true,
-  // path: 'https://dl.dropboxusercontent.com/s/qwy4m0sexapyb8b/octoport-j.json?dl=0'
-  // path: 'https://ww3.aaronadler.com/bodymovin/data.json'
-  // IBM FIRST RENDER:
-  // path: 'https://dl.dropboxusercontent.com/s/vlpdha884xnq1ta/data.json?dl=0'
-  // IBM CIRCLES:
-  // path: 'https://dl.dropboxusercontent.com/s/c58cyqrraerr0v5/data-circle-square-.json?dl=0'
   // IBM CIRCLE-DIAMOND:
   path: 'https://s3.amazonaws.com/aws-website-animatedcodeme--n3fph/bodymovin_files/data-circle-diamond.json'
 };
 
-
 // PLACE THE ABOVE INTO A SHORTER VAR
 var anim = bodymovin.loadAnimation(animData);
-
 
 // SET SPEED
 anim.setSpeed(.8);
 
-</script>
 
 
-<script>
-  var ibm = document.getElementById('animWindow-ibm');
+var ibm = document.getElementById('animWindow-ibm');
 
-  ibm.addEventListener("click", function() {
-    anim.setDirection(1);
-    anim.goToAndStop(0);
-    anim.play();
-  } );
+ibm.addEventListener("click", function() {
+  anim.setDirection(1);
+  anim.goToAndStop(0);
+  anim.play();
+} );
+
+
+
+var ibmCaption = document.getElementById("ibm-caption");
+
+ibmCaption.addEventListener("click", function() {
+  anim.setDirection(1);
+  anim.goToAndStop(0);
+  anim.play();
+} );
 
 </script>
 

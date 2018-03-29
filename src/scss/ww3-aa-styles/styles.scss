@@ -357,6 +357,23 @@ html, body{
 }
 
 
+#ibm p{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300;
+  font-size: 14.5px;
+  line-height: 2.1;
+  letter-spacing: .3px;
+}
+
+#ibm p.caption{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 2.3;
+  letter-spacing: .6px;
+}
+
+
 
 /*===================================================*/
 
@@ -705,7 +722,9 @@ h2 {
   padding: 10px;
   width:400px;
   height: 200px;
-  background-color: rgba(255, 255, 255, .15);
+  // background-color: rgba(255, 255, 255, .15);
+  background-color: rgb(0, 0, 130);
+  // background-color: rgb(0, 0, 152);
 }
 
 
